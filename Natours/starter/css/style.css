@@ -174,10 +174,10 @@ text-align: center;
 }
 .btn:hover::after{
     transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
+    opacity: 0; /*setting the fading effect*/
 }
 
 .btn-animated{
     animation: moveInButton .5s ease-out .75s;
-    animation-fill-mode: backwards; /*makes  the button invisible before the animation strarts*?
+    animation-fill-mode: backwards; /*makes  the button invisible before the animation strarts*/
 }
